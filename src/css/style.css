@@ -1,137 +1,89 @@
-@charset "utf-8";
-
 html {
-    overflow: auto;
     height: 100%;
 }
+
 body {
-    width: auto;
-    height: auto;
+    height: 100%;
+    background-color: #FFFFFF;
+    font-family: "SF Light", sans-serif;
+    color: #010101;
+    text-align: center;
     cursor: default;
-    padding: 50px;
-    margin: 0;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.3;
-    color: #222;
 }
 
-header, nav, section, menu, article, main, figure, aside, footer, details, figcaption, hgroup, summary, code {
+h1 {
+    line-height: 50px;
+    font-size: 26px;
+}
+
+.wrapper {
+    max-width: 90%;
+    min-width: 80%;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+.header {
+    padding-top: 2em;
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+    position: relative;
+}
+
+.header {
+    background: url("../images/icons/arrowdown.svg") no-repeat 50% 93vh;
+}
+
+.header h1 {
+    margin-top: 25vh;
+}
+
+.header a {
+    color: #010101;
+}
+
+.mainmenu .menu-item {
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 20px;
+    line-height: 21px;
+}
+
+.mainmenu .menu-item.active a {
+    color: #686868;
+}
+
+.header .logo {
+    font-family: "Oswald Regular", sans-serif;
+    font-size: 26px;
     display: block;
-    margin: 0;
-    padding: 0;
+    margin-bottom: 0.6em;
 }
 
-img {
-    border: none;
-    vertical-align: middle;
-    border-collapse: separate;
-    -ms-interpolation-mode: bicubic;
-    max-width: 100%;
+.hader h1 span {
+    display: inline;
 }
-img[align="right"] {
-    float: right;
+
+.header h1 span:before {
+    content: "\a ";
+    white-space: pre;
 }
-img[align="left"] {
+
+.content {
+	padding: 140px 0 371px;
+}
+
+.work-skills img {
     float: left;
 }
 
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    border: 0;
-}
-table td,
-table th {
-    padding: 10px;
-    border: 1px solid #888;
-    text-align: left;
-    vertical-align: top;
-    background: #dde4e9;
-}
-table th {
-    font-weight: bold;
-}
-
-sub, sup {
-    line-height: 0;
-}
-abbr[title] {
-    border-bottom: 1px dotted;
-}
-b, strong {
-    font-weight: bold;
-}
-em, i {
-    font-style: italic;
-}
-q, quote {
-    display: block;
-    padding: 1em;
-    quotes: none;
-    background: #f4f7f8;
-    font-weight: bold;
-}
-q:before, quote:before,
-q:after, quote:after{
-    content: '"';
-    font-size: 1.5em;
-    margin: 0.25em;
-    line-height: 0;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    margin: 1em 0 ;
-    padding: 0;
-    font-weight: bold;
-}
 
 
-form, fieldset, p, table, img, code, ul, ol {
-    display: block;
-    margin: 0 0 20px;
-    padding: 0;
-}
-
-code {
-    border-left: 5px solid #558abb;
-    padding: 1em;
-    background: #efefef;
-}
-
-ul, ol {
-    padding: 0 0 0 2em;
-}
-ul li,
-ol li{
-    margin: 0 0 1em;
-}
-li ul,
-li ol {
-    margin-top: 1em;
-}
-
-dt {
-    font-weight: bold;
-    margin: 0 0 0.1em;
-}
-dd {
-    margin: 0 0 1em 2.5em;
-}
-
-
-a {
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-a:hover {
-    text-decoration: none;
-}
-a:hover,
-a:active {
-    outline: transparent;
-}
-a:focus {
-    outline: thin dotted;
+.footer {
+	margin: -371px auto 0;
+	height: 371px;
+	position: relative;
 }

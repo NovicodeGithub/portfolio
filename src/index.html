@@ -1,21 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js"></script>
+	<meta charset="utf-8" />
+    <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+    <title>Daniil Novikov · About</title>
+    <link rel="icon" href="images/icons/favicon.png" type="image/png" />
+    <link rel="icon" href="images/icons/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/main.js"></script>
 </head>
 
 <body>
+    <div class="wrapper">
+        <header class="header">
+            <a class="logo" href="index.html">
+                Daniil Novikov
+            </a>
 
-    <div id="app" :style="{ backgroundColor: `hsl(${x}, 80%, 50%)` }" @mousemove="xCoordinate">
-        <p>Пикселей пройдено: {{ x }}</p>
+            <nav class="mainmenu">
+                <ul class="menu-list">
+                    <li class="menu-item active"><a href="#">About</a></li>
+                    <li class="menu-item"><a href="#">Work</a></li>
+                    <li class="menu-item"><a href="#">Resume</a></li>
+                </ul>
+            </nav>
+
+            <h1>Hello, my name is Daniil. I'm front-end developer /
+                <span>designer living in Odessa, UA.</span>
+            </h1>
+        </header>
+        <main class="content">
+            <article class="work-skills">
+                <p>
+                    I've always been drawn to the overlap between design and development.
+                </p>
+                <p>
+                    My skills are broad: from UX to design, front-end to back-end development. I enjoy each aspect,
+                    and love to build sites from start to finish, do branding and collateral from time to time.
+                </p>
+                <img src="images/profile-photo.jpg" width="423" height="443" alt="Profile photo of Daniil Novikov" />
+            </article>
+            <article class="work-experience">
+                    Most of my work experience is a front-end development (client side of the web).
+                    HTML, CSS, JS, building small and medium web apps with Vue.js, custom plugins, features and animations.
+                    I have also full-stack developer experience with Vue + Firebase.
+                    <a href="#">See more</a>
+            </article>
+        </main>
     </div>
 
-    <script src="main.js"></script>
+    <footer class="footer">
+        <img src="images/icons/heart.svg" alt="Thanks wor watching icon" />
+        <h3>Let's work together.</h3>
+        <span class="footer-email-contact">dannovik30@gmail.com</span>
+        <div class="footer-icons-row">
+            <img src="images/icons/facebook-logo.svg" alt="Facebook profile link" />
+            <img src="images/icons/instagram-logo.svg" alt="Instagram profile link" />
+            <img src="images/icons/behance-logo.svg" alt="Behance profile link" />
+            <img src="images/icons/linkedin-logo.svg" alt="Linked In profile link" />
+        </div>
+        <div class="footer-legal-copyright">
+            Novicode<span>2019</span>
+        </div>
+    </footer>
 </body>
-
 </html>

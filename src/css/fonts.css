@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "SF Black";
+    src: url("../fonts/SF/SFUIDisplay-Black.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "SF Bold";
+    src: url("../fonts/SF/SFUIDisplay-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "SF Light";
+    src: url("../fonts/SF/SFUIDisplay-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "SF Medium";
+    src: url("../fonts/SF/SFUIDisplay-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "SF Regular";
+    src: url("../fonts/SF/SFUIDisplay-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Oswald Regular";
+    src: url("../fonts/Oswald/Oswald-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "SF Thin";
+    src: url("../fonts/SF/SFUIDisplay-Thin.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "SF Semibold";
+    src: url("../fonts/SF/SFUIDisplay-Semibold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
