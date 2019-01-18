@@ -26,5 +26,5 @@
     font-stretch: normal;
     src: local('Oswald Regular'),
         local('Oswald-Regular'),
-        url("../fonts/SF/Oswald-Reagular.ttf") format("truetype");
+        url("../fonts/Oswald/Oswald-Regular.ttf") format("truetype");
 }
