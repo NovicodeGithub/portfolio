@@ -19,6 +19,7 @@
 
 .header h5 {
     font-size: .8em;
+    line-height: 2em;
 }
 
 .header a {
@@ -46,5 +47,5 @@
     font-weight: normal;
     font-size: 1.15em;
     display: inline-block;
-    margin-bottom: 15px;
+    margin-bottom: 17px;
 }

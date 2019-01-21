@@ -1,0 +1,102 @@
+
+.footer {
+    flex-shrink: 0;
+}
+
+.footer > img {
+    width: 3em;
+    height: auto;
+}
+
+.footer h4 {
+    margin-bottom: 3em;
+}
+
+.footer-email-contact {
+    font-size: .8em;
+    line-height: 21px;
+}
+
+.footer-email-contact:hover {
+    cursor: pointer;
+}
+
+.footer-icons-row img {
+    margin: .65em .35em 1em;
+    height: .9em;
+}
+
+.footer-icons-row img:hover {
+    cursor: pointer;
+}
+
+.footer-legal-copyright {
+    line-height: 1.5em;
+    font-size: .65em;
+    margin-bottom: 15px;
+}
+
+
+
+@media (max-device-width: 1170px) {
+    .content .work-skills img {
+        border-radius: 15px;
+        display: block;
+        margin: 0 auto 150px;
+        float: none;
+    }
+
+    .content .work-skills {
+        padding: 1px 10%;
+        text-align: center;
+    }
+
+    .content p {
+        margin: 100px 0;
+    }
+
+    .wrapper {
+        max-width: 90%;
+    }
+
+    .header .logo {
+        font-family: "Oswald", sans-serif;
+        font-weight: normal;
+        font-size: 1.15em;
+        display: block;
+        margin-bottom: 25px;
+    }
+
+    .header {
+        width: 100%;
+        text-align: center;
+        position: relative;
+    }
+
+    body {
+        font-size: 60px;
+    }
+
+    .header h1 {
+        margin: 5.5em 0 7em;
+    }
+
+    .content .work-experience p {
+        margin: 0;
+    }
+
+    .content .work-skills {
+        padding: 1px 0;
+    }
+
+    .work-skills img {
+        width: 80%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-device-width: 840px) {
+    .footer-icons-row img {
+        height: 1em;
+    }
+}

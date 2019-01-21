@@ -10,10 +10,15 @@
     <title>Daniil Novikov · Work</title>
     <link rel="icon" href="images/icons/favicon.png" type="image/png" />
     <link rel="icon" href="images/icons/favicon.ico" type="image/x-icon" />
+    <script type="text/javascript">
+        var elm=document.getElementsByTagName("html")[0];
+        elm.style.display="none";
+        document.addEventListener("DOMContentLoaded",function(event) { elm.style.display="block"; });
+    </script>
     <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/header.css" />
-    <link rel="stylesheet" href="css/footer.css" />
-    <link rel="stylesheet" href="css/work.css" />
+    <link rel="stylesheet" href="css/components/header.css" />
+    <link rel="stylesheet" href="css/components/footer.css" />
+    <link rel="stylesheet" href="css/pages/work.css" />
     <link rel="stylesheet" href="css/fonts.css" />
     <link rel="stylesheet" href="css/animate.css" />
     <script src="js/main.js"></script>
@@ -40,12 +45,12 @@
             <section class="project-picker">
                 <article class="code-project-picker">
                     <h3>Code<span class="new-line-text">projects</span></h3>
-                    <a href="#">See more</a>
+                    <a href="code.html">See more</a>
                     <img src="images/code-section.svg" alt="Design image" />
                 </article>
                 <article class="design-project-picker">
                     <h3>Design<span class="new-line-text">projects</span></h3>
-                    <a href="#">See more</a>
+                    <a href="design.html">See more</a>
                     <img src="images/design-section.svg" alt="Design image" />
                 </article>
             </section>
