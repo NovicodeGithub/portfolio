@@ -144,7 +144,7 @@ strong {
     margin: 0 auto;
     position: relative;
     color: #0070C9;
-    margin-right: 15px;
+    margin-right: 1em;
 }
 
 .project-item > a:hover {
