@@ -39,7 +39,6 @@
 
 .mainmenu .active a {
     color: #585858;
-    cursor: default;
 }
 
 .header .logo {
@@ -47,5 +46,15 @@
     font-weight: normal;
     font-size: 1.15em;
     display: inline-block;
-    margin-bottom: 17px;
+    margin-bottom: .7em;
+}
+
+
+@media (max-device-width: 480px) {
+    .header .logo {
+        margin-bottom: .8em !important;
+    }
+    .mainmenu .menu-item {
+        margin: 0 1em;
+    }
 }

@@ -1,11 +1,11 @@
 .slide-bottom-delay {
-	-webkit-animation: slide-bottom 0.5s ease-in-out .8s both;
-  animation: slide-bottom 0.5s ease-in-out .8s both;
+	-webkit-animation: slide-bottom 0.5s ease-in-out 1s both;
+  animation: slide-bottom 0.5s ease-in-out 1s both;
 }
 
 .slide-bottom {
-  -webkit-animation: slide-bottom 0.5s ease-in-out .5s both;
-  animation: slide-bottom 0.5s ease-in-out .5s both;
+  -webkit-animation: slide-bottom 0.5s ease-in-out .7s both;
+  animation: slide-bottom 0.5s ease-in-out .7s both;
 }
 
 @keyframes slide-bottom {

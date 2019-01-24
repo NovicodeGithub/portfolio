@@ -128,7 +128,6 @@ strong {
 }
 
 
-
 @media (max-device-width: 1170px) {
     .content .work-skills img {
         border-radius: 15px;
@@ -143,45 +142,72 @@ strong {
     }
 
     .content p {
+        margin: 2em 0 !important;
+    }
+}
+
+
+@media (max-device-width: 767px) {
+    body {
+        font-size: 44px;
+    }
+
+    .content .work-skills img {
+        border-radius: 15px;
+        display: block;
+        margin: 0 auto 150px;
+        float: none;
+    }
+
+    .content .work-experience {
+        float: none;
+    }
+
+    .content article p {
+        margin: 100px 0;
+        text-align: left;
+    }
+
+    .content .work-experience p {
         margin: 100px 0;
     }
-    .wrapper {
-        max-width: 90%;
+
+    .header .new-line-text:before {
+        content: " ";
+        white-space: pre;
     }
-    .header .logo {
-        font-family: "Oswald", sans-serif;
-        font-weight: normal;
-        font-size: 1.15em;
-        display: block;
-        margin-bottom: 25px;
-    }
-    .header {
-        width: 100%;
-        text-align: center;
-        position: relative;
-    }
-    body {
-        font-size: 60px;
-    }
-    .header h1 {
-        margin: 5.5em 0 7em;
-    }
-    .content .work-experience p {
-        margin: 0;
+
+    .content .work-experience p:first-child {
+        margin-top: 0;
     }
 
     .content .work-skills {
         padding: 1px 0;
     }
+    
+    .header {
+        width: 100%;
+        text-align: center;
+        position: relative;
+    }
+
+    .header h1 {
+        margin: 5.5em 0 7em;
+    }
+
     .work-skills img {
-        width: 80%;
+        width: 60%;
         height: auto;
+    }
+
+    .work-experience a {
+        margin-right: 40px;
     }
 }
 
-@media only screen and (max-device-width: 840px) {
-    .header .new-line-text:before {
-        content: " ";
-        white-space: pre;
+
+@media (max-device-width: 480px) {
+    body {
+        font-size: 60px;
     }
 }
